@@ -4,6 +4,28 @@ var customSearch;
 
 	"use strict";
 	const scrollCorrection = 70; // (header height = 50px) + (gap = 20px)
+
+	// Caption
+	$('.article-entry').each(function(i){
+		$(this).find('img').each(function(){
+			if ($(this).parent().hasClass('fancybox')) return;
+
+			var alt = this.alt;
+
+			if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+
+			$(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+		});
+
+		$(this).find('.fancybox').each(function(){
+			$(this).attr('rel', 'article' + i);
+		});
+	});
+
+	if ($.fancybox){
+		$('.fancybox').fancybox();
+	}
+
 	function scrolltoElement(elem, correction) {
 		correction = correction || scrollCorrection;
 		const $elem = elem.href ? $(elem.getAttribute('href')) : $(elem);
