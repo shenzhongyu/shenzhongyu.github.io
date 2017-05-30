@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://shenzhongyu.github.io/"/>
-  <updated>2017-05-29T18:34:08.335Z</updated>
+  <updated>2017-05-30T07:56:54.721Z</updated>
   <id>http://shenzhongyu.github.io/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <title>Hello World</title>
     <link href="http://shenzhongyu.github.io/2017/05/30/hello-world.html"/>
     <id>http://shenzhongyu.github.io/2017/05/30/hello-world.html</id>
-    <published>2017-05-29T18:34:08.335Z</published>
-    <updated>2017-05-29T18:34:08.335Z</updated>
+    <published>2017-05-30T07:56:54.721Z</published>
+    <updated>2017-05-30T07:56:54.721Z</updated>
     
     <summary type="html">
     
@@ -28,6 +28,26 @@
     
     </summary>
     
+    
+  </entry>
+  
+  <entry>
+    <title>端午节记</title>
+    <link href="http://shenzhongyu.github.io/2017/05/30/The-Dragan-Boat-Holiday.html"/>
+    <id>http://shenzhongyu.github.io/2017/05/30/The-Dragan-Boat-Holiday.html</id>
+    <published>2017-05-30T07:25:20.000Z</published>
+    <updated>2017-05-30T09:30:30.905Z</updated>
+    
+    <summary type="html">
+    
+      今天是端午节假日，早于几日前，单位已放假三天，我们将会怎样度过这样的一个假日呢？
+    
+    </summary>
+    
+      <category term="生活" scheme="http://shenzhongyu.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="端午节" scheme="http://shenzhongyu.github.io/tags/%E7%AB%AF%E5%8D%88%E8%8A%82/"/>
     
   </entry>
   
