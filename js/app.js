@@ -21,7 +21,7 @@ var customSearch;
 			$(this).attr('rel', 'article' + i);
 		});
 	});
-
+	
 	if ($.fancybox){
 		$('.fancybox').fancybox();
 	}
